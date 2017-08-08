@@ -3,4 +3,4 @@ venv/
 *.py[cod]
 __pycache__
 
-config.ini
+*.ini
