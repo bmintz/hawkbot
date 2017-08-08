@@ -13,9 +13,9 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-	if 'technically' in message.content.lower():
+	if bot.config['bot']['reply_to'] in message.content.lower():
 		await bot.send_message(
 			message.channel,
-			'***Terminology Hawks, DEPLOY***'
+			bot.config['bot']['reply_with']
 		)
 
