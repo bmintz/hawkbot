@@ -23,4 +23,4 @@ async def on_message(message):
 
 
 def is_me(message):
-	return message.author == client.user
+	return message.author == bot.user
