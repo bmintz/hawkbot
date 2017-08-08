@@ -1,0 +1,7 @@
+[login]
+token = 
+
+[bot]
+reply_to = 'technically'
+reply_with = '***Terminology Hawks, DEPLOY***'
+
