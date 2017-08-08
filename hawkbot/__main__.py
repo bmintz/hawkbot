@@ -4,7 +4,6 @@ from configparser import ConfigParser
 import sys
 
 def get_config(filename):
-	print(filename)
 	config = ConfigParser()
 	config.read(filename)
 	return config
