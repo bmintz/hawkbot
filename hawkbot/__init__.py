@@ -13,7 +13,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-	if bot.config['bot']['reply_to'] in message.content.lower():
+	if bot.config['bot']['reply_to'].lower() in message.content.lower():
 		await bot.send_message(
 			message.channel,
 			bot.config['bot']['reply_with']
