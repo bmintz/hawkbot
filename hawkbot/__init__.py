@@ -4,7 +4,6 @@ bot = discord.Client()
 
 @bot.event
 async def on_ready():
-	await bot.edit_profile(username='Terminology Hawk 1')
 	print('----------------------')
 	print('Logged in as:')
 	print('Username:', bot.user.name)
